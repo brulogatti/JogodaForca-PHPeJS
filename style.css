@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: darkolivegreen;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color:whitesmoke;
+    display: block;
+}
+
+section.right{
+    float: right;
+}
+
+section.left{
+    float: left;
+}
+
+body header nav {
+    background-color: whitesmoke;
+    height: 2.3rem;
+}
+
+body header nav a{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+body header nav a:hover{
+    color: greenyellow;
+}
+
+body main .main-menu{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body main div form h1{
+    color:whitesmoke;
+}
+
+body main div.main-menu form p input{
+    margin-top: 50%;
+    width: 8rem;
+    height: 4rem;
+    font-size: 2.2rem;
+    background-color: whitesmoke;
+    position: relative;
+    margin-left: 30%;
+    border-radius: 10%;
+}
+
+body main .letters-menu{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body main div.letters-menu form p{
+    display: block;
+}
+
+body main div.letters-menu form input#letra{
+    width: 20rem;
+    height: 2.7rem;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color:darkolivegreen;
+}
+
+body main div.letters-menu form input[type="submit"]{
+    margin-top: 10%;
+    width: 8rem;
+    height: 4rem;
+    font-size: 2.2rem;
+    background-color: whitesmoke;
+    position: relative;
+    margin-left: 30%;
+    border-radius: 10%;
+}
+
+img{
+    width: 60%;
+    height: 60%;
+}
+

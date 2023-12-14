@@ -1,0 +1,18 @@
+Projeto Prático Jogo da Forca usando Vetores
+
+Objetivo: O objetivo deste projeto é criar um jogo da forca em PHP utilizando vetores para armazenar as palavras que serão adivinhadas e as letras escolhidas pelo jogador.
+
+Funcionamento: O jogo da forca consiste em adivinhar uma palavra, letra por letra, antes de esgotar todas as tentativas. O jogador tem um número limitado de tentativas para adivinhar a palavra, representadas pela imagem de um enforcado. Cada letra incorreta escolhida pelo jogador resulta em uma nova parte do corpo do enforcado sendo desenhada.
+
+Para este projeto, o jogo da forca deve ser implementado em PHP utilizando vetores para armazenar as palavras a serem adivinhadas e as letras escolhidas pelo jogador. O jogo deve seguir as seguintes regras:
+
+    O programa deve ter um conjunto de palavras predefinidas em um vetor.
+    O programa deve selecionar uma palavra aleatória do vetor para o jogador adivinhar.
+    O programa deve exibir na tela a palavra a ser adivinhada com traços no lugar de cada letra.
+    O jogador deve escolher uma letra por vez para tentar adivinhar a palavra.
+    Se a letra escolhida estiver na palavra, ela deve ser exibida nos traços correspondentes.
+    Se a letra escolhida não estiver na palavra, uma parte do corpo do enforcado deve ser desenhada.
+    O jogo termina quando o jogador adivinha a palavra correta ou o desenho do enforcado é concluído.
+    O programa deve permitir que o jogador jogue novamente com uma nova palavra aleatória.
+
+Recursos: Para implementar este projeto, você pode usar PHP e vetores para armazenar as palavras e as letras escolhidas pelo jogador. É possível criar uma interface gráfica com HTML, CSS e JavaScript para tornar o jogo mais atraente e desafiador.
